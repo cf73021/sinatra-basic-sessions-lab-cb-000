@@ -1,8 +1,7 @@
 class Item
-  attr_accessor :name, :value
+  attr_accessor :name
 
   def initialize(params)
     @name = params[:name]
-    @value = params[:value]
   end
 end
